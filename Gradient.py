@@ -62,7 +62,7 @@ def command():
         print("error: wrong/misspelled command")
         commandd()
 
-print("Gradient 1.0")
+print("Gradient 1.1")
 print("")
 print("")
 print("")
