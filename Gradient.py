@@ -62,9 +62,9 @@ def command():
         print("error: wrong/misspelled command")
         commandd()
 
-file1 = open("!0", 'w')
+file1 = open("!0.huo", 'w')
 file1.writelines("Ryan Jacobs")
-file1 = open("!0", "r+")
+file1 = open("!0.huo", "r+")
 file1 = file1.read()
 
 
