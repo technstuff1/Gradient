@@ -8,7 +8,7 @@ time.sleep(0.5)
 
 def decode():
     file1 = input("what file?")
-    if ".hyt" in file1:
+    if file1[-1] == 't' and file1[-2] == 'y' and file1[-3] == 'h' and file1[-4] == '.':
         file1 = open(file1,"r+")
         file1read = file1.read()
         #file1read = list(file1read)
